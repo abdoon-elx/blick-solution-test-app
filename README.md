@@ -3,7 +3,21 @@
 
 ---
 
-## Localhost Setup Instructions
+## Localhost Setup Instructions with Docker
+
+### 1. Install docker and docker compose
+
+https://docs.docker.com/engine/install
+
+
+### 2. Clone the Repository and install
+```
+git clone https://github.com/abdoon-elx/blick-solution-test-app.git
+cd blick-solution-test-app
+docker compose up --build
+RUN the app on browser with this url: http://localhost:3000
+```
+## Localhost Setup Instructions without Docker
 
 ### 1. Clone the Repository install
 
